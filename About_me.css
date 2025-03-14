@@ -1,0 +1,71 @@
+html{
+  background-color: #fffee5;
+}
+
+body {
+  background-image: url('fondo\ web\ large\ 1.png'); /* Ruta a tu imagen */
+  background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+  background-position: center center; /* Centra la imagen */
+  height: 100vh; /* Asegura que el fondo cubra toda la altura de la pantalla */
+  overflow: hidden; /* Elimina el scroll en la página */
+}
+
+.navbar-brand {
+  text-align: center;
+  flex-grow: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-brand img {
+  max-height: 150px; 
+}
+.mini-images a img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+  
+  #About_me{
+    margin-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #Imagen img{
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+  }
+  #Imagen {
+    width: 20%;
+    height: auto;
+    margin-left: 10px;
+  }
+  #Descripcion{
+    width: 50%;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+  }
+  @media (max-width: 1024px) {
+    #Bottom_description {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #Descripcion {
+      width: 90%;
+      font-size: 24px;
+    }
+  
+    #Imagen {
+      width: 80%;
+    }
+    
+    #Logo img{
+      width: 80%;
+      height: auto;
+    }
+  }
+  
+
